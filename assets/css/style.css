@@ -356,4 +356,55 @@ body {
     }
     
   }
+
+  @media screen and (max-width: 512px) {
+    #wrapper {
+      width: 100%;
+    }
+    .container {
+      max-width: 100%;
+    }
+    #logo {
+      width: 100%;
+      margin-left: auto;
+    }
+    #masthead {
+      width: 100%;
+      /* margin-left: 10px; */
+    }
+    nav {
+      margin-right: 20px;
+      float: left;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    #contact-form ul {
+      padding-left: unset;
+      width: 100%;
+    }
+    .portfolio-item {
+      width: 100%;
+      margin: 0px;
+      margin-bottom: 10px;
+    }
+    .auth-image {
+      float: none;
+      width: 100%;
+    }
+    ul {
+    
+  
+    }
+    
+    aside {
+      margin-left: 15px;
+      font-size: 14px;
+      line-height: 13px;
+      width: 38%;
+    }
+    label {
+      font-size: 14px;
+    }
+  }
   
