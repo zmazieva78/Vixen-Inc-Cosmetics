@@ -189,13 +189,13 @@ body {
     margin-left: 70px;
     width: 28%;
     float: left;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 14px;
     }
 
   #links {
     float: right;
-    width: 30px;
+    width: 50px;
   }
   label {
     font-size: 16px;
@@ -272,6 +272,10 @@ body {
     input[type=submit] {
       margin-left: auto;
     }
+
+    #links {
+      width: auto;
+    }
     
   }
   
@@ -302,7 +306,9 @@ body {
     .portfolio-item {
       width: 46%;
     }
-   
+    #links {
+      width: auto;
+    }
     
     
   }
@@ -342,10 +348,12 @@ body {
       float: none;
       width: 100%;
     }
-    p {
+    /* p {
       font-size: 20px;
+    } */
+    #links {
+      width: auto;
     }
-   
     
   }
   
